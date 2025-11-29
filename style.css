@@ -1,7 +1,7 @@
  body {
      font-family: Arial, sans-serif;
-     margin: 0px;
-     padding: 0px;
+     margin: 5px;
+     padding: 5px;
  }
 
  h1 {
@@ -15,6 +15,16 @@
     gap: 10px;
     padding: 10px;
  }
+
+ .galeria-item {
+     margin-bottom: 5%;
+ }
+ .galeria-item.tortuga {
+    grid-row: span 2; 
+}
+.galeria-item.rana {
+    grid-column: span 2;
+}
 
  .galeria-item img {
     width: 100%;

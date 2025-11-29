@@ -87,7 +87,12 @@ galleryData.forEach(item => {
     const div = document.createElement('div');
     div.className = 'galeria-item';
 
-
+       if (item.alt.includes("Tortuga")) {
+        div.classList.add('tortuga');
+    }
+       if (item.alt.includes("Rana")) {
+        div.classList.add('rana');
+    }
     const picture = document.createElement('picture');
     item.sources.forEach(sourceData => {
         const source = document.createElement('source');
