@@ -127,3 +127,4 @@ galleryData.forEach(item => {
 document.querySelector('.close').onclick = function () {
     document.getElementById('modal').style.display = "none";
 }
+console.log(window.devicePixelRatio);
